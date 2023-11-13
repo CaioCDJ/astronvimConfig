@@ -18,7 +18,12 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  -- colorscheme = "nightfox",
+  -- colorscheme = "astrodark",
+  colorscheme = "poimandres",
+  -- colorscheme = "fluoromachine",
+  -- colorscheme = "tokyonight",
+  -- colorscheme = "onedark",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -36,7 +41,7 @@ return {
           -- "go",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
-          "cs", 'fs', 'fsx'
+          "cs", 'fs', 'fsx', 'php'
         },
       },
       disabled = { -- disable formatting capabilities for the listed language servers

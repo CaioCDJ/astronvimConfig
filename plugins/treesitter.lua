@@ -8,7 +8,7 @@ return {
       "javascript",
       "css",
       "c_sharp",
-      "php"
+      "php",
     })
   end,
 }
